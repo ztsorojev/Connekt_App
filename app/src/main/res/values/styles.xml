@@ -13,6 +13,8 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+
+
     <!-- Dark Buttons -->
     <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
         <item name="colorButtonNormal">@color/grey_500</item>
@@ -46,10 +48,15 @@
         <item name="android:textSize">36sp</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
+
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

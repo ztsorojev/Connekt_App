@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space12"
+    tools:context="com.example.mistersev7n.csm117_project.profSessionChoice">
+
+    <Button
+        android:id="@+id/createSession"
+        android:layout_width="241dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/createSession"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/enterSession"
+        android:layout_width="241dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/enterSession"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createSession" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/sessionProfText"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space12"
+    tools:context="com.example.mistersev7n.csm117_project.profEnterSession">
+
+
+    <TextView
+        android:id="@+id/textIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/session_enter"
+        android:textColor="@android:color/holo_blue_bright"
+
+        android:textSize="22sp"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_konnekt2" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorText">
+
+        <EditText
+            android:id="@+id/sessCode"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toStartOf="@+id/buttSubmit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/errorText"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/buttSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fui_bgPhone"
+            android:text="@string/buttSubmit"
+            android:textColor="@color/browser_actions_bg_grey"
+            app:layout_constraintBaseline_toBaselineOf="@+id/sessCode"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/sessionError"
+        android:textColor="@color/fui_bgEmail"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textIntro" />
+
+    <TextView
+        android:id="@+id/hiddenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</android.support.constraint.ConstraintLayout>

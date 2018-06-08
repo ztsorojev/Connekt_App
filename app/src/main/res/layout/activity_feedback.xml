@@ -4,57 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/space13"
     tools:context="com.example.mistersev7n.csm117_project.FeedbackActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSlow"
         android:layout_width="228dp"
         android:layout_height="86dp"
         android:layout_marginBottom="93dp"
         android:layout_marginTop="40dp"
-        android:onClick="fastButton"
+        android:background="@drawable/btn_bg"
+        android:onClick="slowButton"
         android:text="@string/button_slow"
+        android:textColor="@android:color/holo_blue_bright"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGood"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonGood"
         android:layout_width="228dp"
         android:layout_height="86dp"
         android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
         android:onClick="goodButton"
         android:text="@string/button_good"
+        android:textColor="@android:color/holo_blue_bright"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonFast" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonFast"
         android:layout_width="228dp"
         android:layout_height="86dp"
         android:layout_marginTop="30dp"
-        android:onClick="slowButton"
+        android:background="@drawable/btn_bg"
+        android:onClick="fastButton"
         android:text="@string/button_fast"
+        android:textColor="@android:color/holo_blue_bright"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/testQ" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/testQ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/feedback_quest"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/holo_blue_bright"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"

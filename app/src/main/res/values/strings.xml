@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Firebase Authentication</string>
+    <string name="app_name">Connekt</string>
 
     <string name="label_google_sign_in">Firebase + Google Sign In</string>
     <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
@@ -99,4 +99,22 @@
     <string name="feedback_quest">How is the class?</string>
     <string name="thank_you">THANK YOU!</string>
     <string name="timer_text">You will be able to give the next feedback in</string>
+    <string name="menu_quizz">Quiz</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="quizz_test">This is a quizz.</string>
+    <string name="session_enter">Enter the code of your session</string>
+    <string name="sessionSubmit">Submit</string>
+    <string name="sessionError">Please enter the right code</string>
+    <string name="profQuizzError">Please fill all the options</string>
+    <string name="buttSubmit">Submit</string>
+    <string name="feedbackButt">See Feedback</string>
+    <string name="SessionId">Your Session ID:</string>
+    <string name="feedback_noResp">No responses yet.</string>
+    <string name="quizError">Please choose an option.</string>
+    <string name="slogan">We connect Students with Professors</string>
+    <string name="createSession">Create Session</string>
+    <string name="enterSession">Enter Session</string>
+    <string name="sessionProfText">Define a session first</string>
+    <string name="menu_quizResult">Quiz Results</string>
+    <string name="refreshButt">Refresh</string>
 </resources>

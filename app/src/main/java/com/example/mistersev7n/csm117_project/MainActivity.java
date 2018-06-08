@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -36,6 +38,8 @@ public class MainActivity extends BaseActivity implements
     private static final String TAG = "GoogleActivity";
     private static final int RC_SIGN_IN = 9001;
 
+    TextView msg;
+
     // [START declare_auth]
     private FirebaseAuth mAuth;
     // [END declare_auth]
@@ -48,6 +52,8 @@ public class MainActivity extends BaseActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        msg = findViewById(R.id.getStarted);
 
         // Views
         //mStatusTextView = findViewById(R.id.status);
@@ -145,7 +151,7 @@ public class MainActivity extends BaseActivity implements
     }
     // [END signin]
 
-    private void signOut() {
+    public void signOut() {
         // Firebase sign out
         mAuth.signOut();
 
@@ -183,6 +189,9 @@ public class MainActivity extends BaseActivity implements
             findViewById(R.id.sign_out_and_disconnect).setVisibility(View.VISIBLE);
             findViewById(R.id.butt_prof).setVisibility(View.VISIBLE);
             findViewById(R.id.butt_student).setVisibility(View.VISIBLE);
+
+            msg.setText("GET STARTED");
+
         } else {
             //mStatusTextView.setText(R.string.signed_out);
             //mDetailTextView.setText(null);
@@ -211,7 +220,19 @@ public class MainActivity extends BaseActivity implements
     /** Called when the user taps the Student button */
     public void studButton(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, FeedbackActivity.class);
+        Intent intent = new Intent(this, SessionActivity.class);
         startActivity(intent);
     }
+
+
+    /** Called when the user taps the Professor button */
+    public void profButton(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, profSessionChoice.class);
+        startActivity(intent);
+
+
+    }
+
+
 }

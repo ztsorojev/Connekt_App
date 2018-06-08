@@ -18,6 +18,11 @@ android {
         }
     }
 }
+/*
+repositories {
+    maven { url "https://jitpack.io" }
+}
+*/
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -41,6 +46,11 @@ dependencies {
 
     //Add library for round circle bar for timer
     compile 'me.zhanghai.android.materialprogressbar:library:1.4.2'
+
+    implementation 'com.google.firebase:firebase-database:15.0.1'
+
+    //github
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
 }
 
 apply plugin: 'com.google.gms.google-services'

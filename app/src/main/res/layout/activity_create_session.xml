@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/space12"
+    android:layout_height="match_parent"
+    tools:context="com.example.mistersev7n.csm117_project.CreateSessionActivity">
+
+
+    <TextView
+        android:id="@+id/sessionID"
+        android:layout_width="181dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:text="xxxxx"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youSessionID" />
+
+    <Button
+        android:id="@+id/sessionbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:text="Generate Session ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sessionID" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/feedbackButt"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sessionbutton" />
+
+    <TextView
+        android:id="@+id/youSessionID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/SessionId"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

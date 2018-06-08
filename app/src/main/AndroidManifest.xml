@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,6 +22,7 @@
         </activity>
         <activity
             android:name=".FeedbackActivity"
+            android:label="Feedback"
             android:parentActivityName=".MainActivity">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
@@ -27,7 +30,44 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".TimerActivity"></activity>
+        <activity
+            android:name=".TimerActivity"
+            android:label="Timer" />
+        <activity
+            android:name=".QuizzActivity"
+            android:label="Quiz"
+            android:parentActivityName=".FeedbackActivity" />
+        <activity
+            android:name=".QuizProfActivity"
+            android:label="Quizz"
+            android:parentActivityName=".FeedbackResultsActivity" />
+        <activity
+            android:name=".SessionActivity"
+            android:label="Session"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".ResultsActivity"
+            android:label="Quiz Results" />
+        <activity
+            android:name=".FeedbackResultsActivity"
+            android:label="Feedback Results" />
+        <activity
+            android:name=".Student_Quiz"
+            android:label="Quiz"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CreateSessionActivity"
+            android:label="Create Session"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".profSessionChoice" />
+
+        <activity android:name=".profEnterSession"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+
+        <activity android:name=".QuizList"/>
+        <activity android:name=".Student_Quizlist"/>
     </application>
 
 </manifest>
