@@ -4,7 +4,7 @@ Professors can see the level of attention in the class, as well as all the respo
 
 ## Video Demo
 
-App Demo video: https://www.youtube.com/watch?v=KLTwhSw7w2U.
+App Demo video: https://www.youtube.com/watch?v=KLTwhSw7w2U <br />
 Screen Capture video: https://www.youtube.com/watch?v=qwcyJXy-uu8
 
 ## How to run the code
