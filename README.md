@@ -1,5 +1,6 @@
 # Connekt
-Android app that allows students to send feedback to professors during the lectures and also participate in quizzes.
+Android app that allows students to send feedback to professors during the lectures and also participate in quizzes. 
+Professors can see the level of attention in the class, as well as all the responses to the quizzes.
 
 ## Video Demo
 
