@@ -1,12 +1,12 @@
-# Connekt_App
+# Connekt
 Android app that allows students to send feedback to professors during the lectures and also participate in quizzes.
 
-# Video Demo
+## Video Demo
 
 App Demo video: https://www.youtube.com/watch?v=KLTwhSw7w2U
 Screen Capture video: https://www.youtube.com/watch?v=qwcyJXy-uu8
 
-# How to run the code
+## How to run the code
 To run the code, simply build it on Android Studio, with your phone connected to your computer.
 
 Then you can start using the app :)
