@@ -2,6 +2,9 @@
 Android app that allows students to send feedback to professors during the lectures and also participate in quizzes. 
 Professors can see the level of attention in the class, as well as all the responses to the quizzes.
 
+![Alt text](https://github.com/ztsorojev/Connekt_App/blob/master/Screenshots.png)
+
+
 ## Video Demo
 
 App Demo video: https://www.youtube.com/watch?v=KLTwhSw7w2U <br />
