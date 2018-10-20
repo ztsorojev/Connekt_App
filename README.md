@@ -10,8 +10,8 @@ Professors can see the level of attention in the class, as well as all the respo
 
 ## Video Demo
 
-App Demo (use case): https://www.youtube.com/watch?v=KLTwhSw7w2U <br />
-Screen Capture: https://www.youtube.com/watch?v=qwcyJXy-uu8
+[App Demo](https://www.youtube.com/watch?v=KLTwhSw7w2U) (use case) <br />
+[Screen Capture](https://www.youtube.com/watch?v=qwcyJXy-uu8)
 
 ## How to run the code
 To run the code, simply build the apk on Android Studio, with your phone connected to your computer.
