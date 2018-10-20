@@ -14,20 +14,21 @@ App Demo (use case): https://www.youtube.com/watch?v=KLTwhSw7w2U <br />
 Screen Capture: https://www.youtube.com/watch?v=qwcyJXy-uu8
 
 ## How to run the code
-To run the code, simply build it on Android Studio, with your phone connected to your computer.
+To run the code, simply build the apk on Android Studio, with your phone connected to your computer.
 
-Then you can start using the app :)
+You can then start using the app :)
 
-1. Log in
-2. Choose "Professor"
+If you want to try it by yourself, follow these steps:
+
+1. Log in as "Professor"
 3. Create a session
 4. Create a quiz
 5. Logout
-6. Log in again
-7. Choose "Student"
+6. Log in as "Student"
 8. Enter the session code
 9. Give a feedback 
 10. Answer the quiz
-11. Logout
+11. Logout <br><br>
+*You can now see the results:* <br>
 12. Go back to the professor side and enter the session code.
-13. See the feedback and quiz results.
+13. You can now see the feedback and quiz results.
